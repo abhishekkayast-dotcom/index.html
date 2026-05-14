@@ -1,0 +1,97 @@
+*
+{
+margin: 0;
+
+}
+body
+{
+    background-color: #121212;;
+
+}
+.header{
+    display: flex;
+    
+}
+.leftside
+{
+
+display: flex;
+flex-direction: column;
+padding: 15px;
+height: 9vh;
+
+gap: 10px;
+width: 30%;
+align-items: center;
+align-items: stretch;
+color: white;
+
+background: #1e1e2f;
+
+}
+#facts
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70%;
+color: #ffffff;
+background: #232946;
+font-size: 18px;
+}
+.bottombox{
+   display: flex; 
+   bottom: 50px;
+   position: fixed;
+   justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+   
+    
+}
+.bottombox input{
+    width: 300px;
+    padding: 12px ;
+    font-size: 16px;
+    
+}
+.bottombox button{
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.task{
+    background: #2d2d44;;
+    padding: 12px 15px;
+    
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+#deletebtn {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        #deletebtn:hover {
+            background-color: darkred;
+        }
+        .task h4 {
+            color: white;
+            font-size: 17px;
+        }
+        
+#sidebar{
+    
+
+}
